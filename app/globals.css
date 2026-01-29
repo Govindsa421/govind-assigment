@@ -3,7 +3,6 @@
 @import "tailwindcss";
 
 :root {
-  /* Theme Variables */
   --background: #ffffff;
   --foreground: #151515;
   --primary: #052c27;
@@ -13,7 +12,6 @@
   --font-anton: "Anton", sans-serif;
   --font-roboto: "Roboto", sans-serif;
 
-  /* Custom Colors */
   --color-green: #052c27;
   --color-grey: #151515;
   --color-white: #ffffff;
@@ -21,28 +19,7 @@
   --color-green-hover: #074037;
   --color-grey-hover: #2a2a2a;
 
-  /* Or use the 'color-*' prefix for direct Tailwind access */
   --color-brand-green: #052c27;
   --color-brand-grey: #151515;
   --color-brand-white: #ffffff;
-}
-
-/* @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-} */
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
-
-body {
-  /* background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif; */
 }
