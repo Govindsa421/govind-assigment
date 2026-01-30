@@ -15,16 +15,27 @@ const BuildingBharatSection = () => {
           </p>
 
           <div>
-            <div className='text-brand-white mt-24'>
+            <div className='text-brand-white mt-24 cursor-pointer'>
               <p className='flex gap-4'>
                 Book a appointment <ArrowUpRightIcon className='h-6 w-6 rounded-full bg-[#2a4b47]  p-1' />
               </p>
             </div>
-            <div className='flex  gap-4 md:justify-end justify-start md:0 mt-7'>
-              <Image src={`/img/instagram.png`} alt='instagram' width={20} height={20} className='invert' />
-              <Image src={`/img/linkedin.png`} alt='instagram' width={20} height={20} className='invert' />
-              <Image src={`/img/facebook.png`} alt='instagram' width={20} height={20} className='invert' />
-              <Image src={`/img/youtube.png`} alt='instagram' width={20} height={20} className='invert' />
+            <div className='flex   gap-4 md:justify-end justify-start md:0 mt-7'>
+              <div className=' cursor-pointer'>
+                <Image src={`/img/instagram.png`} alt='instagram' width={20} height={20} className='invert ' />
+              </div>
+
+              <div className=' cursor-pointer'>
+                <Image src={`/img/linkedin.png`} alt='instagram' width={20} height={20} className='invert ' />
+              </div>
+
+              <div className=' cursor-pointer'>
+                <Image src={`/img/facebook.png`} alt='instagram' width={20} height={20} className='invert ' />
+              </div>
+
+              <div className=' cursor-pointer'>
+                <Image src={`/img/youtube.png`} alt='instagram' width={20} height={20} className='invert ' />
+              </div>
             </div>
           </div>
         </div>

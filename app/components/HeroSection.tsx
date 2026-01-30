@@ -55,9 +55,9 @@ const HeroSection = () => {
           <p className='text-3xl sm:text-4xl lg:text-[64px] font-medium sm:flex-1 sm:text-center'>
             Brand Soul Philosophy
           </p>
-          <button className='flex items-center gap-2 text-sm sm:text-base group'>
+          <button className='flex items-center gap-2 text-sm sm:text-base group cursor-pointer'>
             Explore More
-            <ArrowUpRightIcon className='h-5 w-5 sm:h-6 sm:w-6 rounded-full bg-[#c1c9c8] text-brand-green p-1 group-hover:bg-brand-green group-hover:text-white transition-colors' />
+            <ArrowUpRightIcon className='h-5 w-5 sm:h-6 sm:w-6 rounded-full bg-[#c1c9c8] text-brand-green p-1  duration-300 group-hover:bg-brand-green group-hover:text-white transition-colors' />
           </button>
         </div>
 
@@ -66,9 +66,9 @@ const HeroSection = () => {
           <p className='text-3xl sm:text-4xl lg:text-[64px] font-medium sm:flex-1 sm:text-center'>
             Building for Bharat
           </p>
-          <button className='flex items-center gap-2 text-sm sm:text-base group whitespace-nowrap'>
+          <button className='flex items-center gap-2 text-sm sm:text-base group whitespace-nowrap cursor-pointer'>
             Join the Movement
-            <ArrowUpRightIcon className='h-5 w-5 sm:h-6 sm:w-6 rounded-full bg-[#2a4b47] p-1 group-hover:bg-white group-hover:text-brand-green transition-colors flex-shrink-0' />
+            <ArrowUpRightIcon className='h-5 w-5 sm:h-6 sm:w-6 rounded-full bg-[#2a4b47] p-1  duration-300 group-hover:bg-white group-hover:text-brand-green transition-colors flex-shrink-0' />
           </button>
         </div>
 
@@ -76,9 +76,9 @@ const HeroSection = () => {
           <div className='flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 text-brand-white mb-8 sm:mb-12 lg:mb-16'>
             <p className='text-2xl sm:text-3xl lg:text-[48px] font-medium'>03</p>
             <p className='text-3xl sm:text-4xl lg:text-[64px] font-medium sm:flex-1 sm:text-center'>Learn with AG</p>
-            <button className='flex items-center gap-2 text-sm sm:text-base group'>
+            <button className='flex items-center gap-2 text-sm sm:text-base group cursor-pointer'>
               Checkout
-              <ArrowUpRightIcon className='h-5 w-5 sm:h-6 sm:w-6 rounded-full bg-[#383838] p-1 group-hover:bg-white group-hover:text-brand-grey transition-colors' />
+              <ArrowUpRightIcon className='h-5 w-5 sm:h-6 sm:w-6 rounded-full bg-[#383838] p-1 duration-300 group-hover:bg-white group-hover:text-brand-grey transition-colors' />
             </button>
           </div>
 
@@ -88,7 +88,7 @@ const HeroSection = () => {
           </p>
 
           <div className='flex md:flex-row flex-col justify-end  gap-5 mb-10 mt-10'>
-            <div>
+            <div className='cursor-pointer'>
               <Image
                 src={`/img/img1.png`}
                 alt='thumbnail1'
@@ -97,7 +97,7 @@ const HeroSection = () => {
                 className='md:w-[199.68px] w-full'
               />
             </div>
-            <div>
+            <div className='cursor-pointer'>
               <Image
                 src={`/img/img2.png`}
                 alt='thumbnail2'
@@ -106,7 +106,7 @@ const HeroSection = () => {
                 className='md:w-[199.68px] w-full'
               />
             </div>
-            <div>
+            <div className='cursor-pointer'>
               <Image
                 src={`/img/img3.jpg`}
                 alt='thumbnail3'

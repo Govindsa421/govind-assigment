@@ -48,7 +48,7 @@ const PhilosophySection = () => {
                   />
                 </div>
 
-                <button className='w-full py-3 rounded-md border border-yellow-400 text-brand-white bg-brand-grey transition'>
+                <button className='w-full py-3 rounded-md border cursor-pointer border-yellow-400 text-brand-white bg-brand-grey transition'>
                   submit
                 </button>
               </div>
@@ -63,13 +63,37 @@ const PhilosophySection = () => {
             Every brand, every initiative, every experiment you see here — was born from one shared belief:
           </p>
           <div className='flex md:flex-row flex-col gap-8  mx-auto  mt-10 '>
-            <Image src={`/img/img1.png`} alt='theumbanil1' width={333} height={592} className='md:w-83.25 w-full' />
-            <Image src={`/img/img4.png`} alt='theumbanil1' width={333} height={592} className='md:w-83.25 w-full' />
-            <Image src={`/img/img3.jpg`} alt='theumbanil1' width={333} height={592} className='md:w-83.25 w-full' />
-            <Image src={`/img/img2.png`} alt='theumbanil1' width={333} height={592} className='md:w-83.25 w-full' />
+            <Image
+              src={`/img/img1.png`}
+              alt='theumbanil1'
+              width={333}
+              height={592}
+              className='md:w-83.25 w-full cursor-pointer'
+            />
+            <Image
+              src={`/img/img4.png`}
+              alt='theumbanil1'
+              width={333}
+              height={592}
+              className='md:w-83.25 w-full cursor-pointer'
+            />
+            <Image
+              src={`/img/img3.jpg`}
+              alt='theumbanil1'
+              width={333}
+              height={592}
+              className='md:w-83.25 w-full cursor-pointer'
+            />
+            <Image
+              src={`/img/img2.png`}
+              alt='theumbanil1'
+              width={333}
+              height={592}
+              className='md:w-83.25 w-full cursor-pointer'
+            />
           </div>
 
-          <p className='flex gap-2 mt-10 justify-end'>
+          <p className='flex gap-2 mt-10 justify-end cursor-pointer'>
             Checkout <ArrowUpRightIcon className='h-6 w-6 rounded-full bg-[#383838] p-1' />
           </p>
         </div>

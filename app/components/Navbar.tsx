@@ -51,7 +51,9 @@ const Navbar = () => {
       <div className='p-4'>
         <div className='flex items-center justify-between  bg-brand-green rounded-full p-3'>
           <div className='ml-4'>
-            <Image src={"/img/logo.png"} alt='logo' width={122.88} height={27.36} className='object-cover ' />
+            <Link href={"/"}>
+              <Image src={"/img/logo.png"} alt='logo' width={122.88} height={27.36} className='object-cover ' />
+            </Link>
           </div>
 
           <div className='hidden list-none sm:flex '>
@@ -68,12 +70,12 @@ const Navbar = () => {
             ))}
           </div>
 
-          <div className='hidden md:flex items-center bg-brand-white gap-3 text-sm font-semibold text-brand-green rounded-full px-4 py-2'>
+          <div className='hidden md:flex items-center bg-brand-white gap-3 cursor-pointer text-sm font-semibold text-brand-green rounded-full px-4 py-2'>
             Works With Me
           </div>
 
           {/* mobile view */}
-          <div className='flex md:hidden items-center gap-2 text-brand-white z-10'>
+          <div className='flex md:hidden items-center gap-2 text-brand-white cursor-pointer z-10'>
             <button className='p-2 ' onClick={handleNav}>
               {nav ? <XMarkIcon className='w-6 h-6' /> : <Bars3Icon className='w-6 h-6' />}
             </button>
